@@ -1,0 +1,104 @@
+/* A restrained palette and clear hierarchy, following the Module 3 readings. */
+[data-testid="stMainBlockContainer"] {
+    max-width: 1480px;
+    padding-top: 2.5rem;
+    padding-bottom: 3rem;
+}
+
+h1, h2, h3 {
+    color: #2F6FA7 !important;
+    letter-spacing: -0.025em;
+}
+
+h1 {
+    color: #1F3B57 !important;
+    font-weight: 750;
+    padding-bottom: 0.5rem;
+}
+
+h3 {
+    font-weight: 650;
+    margin-top: 1rem;
+}
+
+.stMarkdown p,
+[data-testid="stExpanderDetails"] p {
+    font-size: 1.16rem;
+    line-height: 1.65;
+}
+
+.section-spacer {
+    height: 1.5rem;
+}
+
+[data-testid="stCaptionContainer"] {
+    color: #5B6B7A;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+[data-testid="stWidgetLabel"] p {
+    font-size: 1.08rem;
+    font-weight: 600;
+    color: #263746;
+}
+
+[data-testid="stMetric"] {
+    background: #FFFFFF;
+    border: 1px solid #D7E0E8;
+    border-top: 3px solid #2F6FA7;
+    border-radius: 10px;
+    padding: 1.1rem 1.25rem;
+    height: 100%;
+}
+
+[data-testid="stMetricLabel"] {
+    color: #5B6B7A;
+    font-size: 1rem;
+}
+
+[data-testid="stMetricValue"] {
+    color: #1F3B57;
+    font-variant-numeric: tabular-nums;
+    font-weight: 650;
+}
+
+[data-testid="stExpander"] details {
+    border: 1px solid #D7E0E8;
+    border-radius: 10px;
+    background: #FFFFFF;
+}
+
+[data-testid="stExpander"] summary p {
+    font-size: 1.08rem;
+    font-weight: 600;
+}
+
+[data-testid="stVegaLiteChart"] {
+    background: #FFFFFF;
+    border: 1px solid #D7E0E8;
+    border-radius: 10px;
+    padding: 0.75rem;
+}
+
+[data-testid="stButton"] button {
+    border-radius: 8px;
+    border-color: #2F6FA7;
+    color: #2F6FA7;
+    font-weight: 600;
+    font-size: 1.08rem;
+    background: #FFFFFF;
+}
+
+[data-testid="stButton"] button:hover {
+    background: #E9EFF5;
+    border-color: #245780;
+    color: #245780;
+}
+
+@media (max-width: 640px) {
+    [data-testid="stMainBlockContainer"] {
+        padding: 1.5rem 1rem;
+    }
+
+}
